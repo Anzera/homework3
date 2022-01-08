@@ -13,6 +13,8 @@ namespace ZadanieDomowe3
             Console.WriteLine("Podaj jakąś liczbę:");
             var number = GetNumber();
             EvenOddNumber(number);
+
+            Console.ReadLine();
         }
 
         private static int GetNumber()
